@@ -5,9 +5,16 @@ Dataset:
 The dataset was obtained online from the CMATERdb pattern recognition database repository. It consists of a 12,000 Training images and 3,000 Testing images in the dataset comprised by 222 characters of Bangla language. 
 
 
+
+![alt text](https://www.researchgate.net/profile/Nibaran_Das/publication/301740883/figure/fig2/AS:373197838012417@1465988707093/Fig-2-Samples-of-handwritten-Bangla-characters.ppm)
+
+
+
+
+
 Architecture of the network:
 - Images normalized to the size of 32x32 for input to the model. 
-- Model contains 2 sequential steps each comprising two convolutional layers(each with a relu activation), a maxpooling layer   and finally a dropout to avoid overfitting.
+- Model contains 2 sequential steps each comprising two convolutional layers( each with a relu activation), a maxpooling layer   and finally a dropout to avoid overfitting.
 
 - Above model is followed by two densely connected layers of neural network. Activation layer used is Softmax. 
 
